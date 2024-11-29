@@ -1,0 +1,28 @@
+/* Styles! */
+
+/* Universal font-family for the page */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Titles formatting */
+h1 {
+    background-color: yellow;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Type selector, adds color and changes font-type */
+h2 {
+    color: brown;
+    font: italic bold 25px Tahoma;
+}
+
+/* Image centering */
+.food_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
