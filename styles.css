@@ -18,11 +18,10 @@ h2 {
     font: italic bold 25px Tahoma;
 }
 
-/* Image centering */
+/* Image centering, changes display to a block and centers it horizontally */
 .food_image {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin: auto;
+    width: auto;
 }
 
