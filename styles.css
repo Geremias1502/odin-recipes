@@ -3,13 +3,30 @@
 /* Universal font-family for the page */
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+    padding: 8px;
+}
+
+/* Handles the background of the content on the page */
+.content_background {
+    width: 1000px;
+    background: #eee;
+    padding: 30px;
+    margin: 16px auto;
 }
 
 /* Titles formatting */
 h1 {
-    background-color: yellow;
+    background-color: rgb(165, 42, 42);
     text-align: center;
     font-size: 35px;
+    color: #ffffff;
+    padding: 10px;
+    margin: 20px auto;
 }
 
 /* Type selector, adds color and changes font-type */
@@ -26,7 +43,7 @@ h2 {
     outline: 2px solid black;
 }
 
+/* Handles images descriptions */
 .image_description {
     text-align: center;
 }
-
